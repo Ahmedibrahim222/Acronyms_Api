@@ -1,4 +1,12 @@
 # Acronyms_Api
+Change the database pool to your local details: eg; line 12 to 18 should be changed to your db details
+const pool = new Pool({
+    user: '*******',
+    host: 'localhost',
+    database: 'AppliedCoding',
+    password: '*******',
+    port: 5432,
+});
 To run the code, you need to install the following dependencies:
 npm install, npm install express body-parser pg cors
 To start the code, you need to node app.js, then start the following url:
